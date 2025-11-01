@@ -4,22 +4,23 @@
 \alias{risk_ratio_attr}
 \title{Risk ratio (relative risk)}
 \usage{
-risk_ratio_attr(a_caex, b_ncex, c_caux, d_ncux)
+risk_ratio_attr(a_case_exp, b_ncas_exp, c_case_uex, d_ncas_uex)
 }
 \arguments{
-\item{a_caex}{\verb{<num>} Number of cases exposed.}
+\item{a_case_exp}{\verb{<num>} Number of cases exposed.}
 
-\item{b_ncex}{\verb{<num>} Number of non-cases exposed.}
+\item{b_ncas_exp}{\verb{<num>} Number of non-cases exposed.}
 
-\item{c_caux}{\verb{<num>} Number of cases unexposed.}
+\item{c_case_uex}{\verb{<num>} Number of cases unexposed.}
 
-\item{d_ncux}{\verb{<num>} Number of non-cases unexposed.}
+\item{d_ncas_uex}{\verb{<num>} Number of non-cases unexposed.}
 }
 \value{
-Risk ratio (relative risk) and/or attributable risk.
+A list containing risk exposed, risk unexposed,
+risk ratio (relative risk) and attributable risk.
 }
 \description{
-Incidence exposed (Ie) or Risk exposed (Re)):
+Incidence exposed (Ie) or Risk exposed (Re):
 \itemize{
 \item \code{Re = cases_exposed/(cases_exposed + cases_exposed)}
 }

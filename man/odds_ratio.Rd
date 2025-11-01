@@ -4,16 +4,16 @@
 \alias{odds_ratio}
 \title{Odds ratio}
 \usage{
-odds_ratio(a_caex, b_coex, c_caux, d_coux)
+odds_ratio(a_case_exp, b_ctrl_exp, c_case_uex, d_ctrl_uex)
 }
 \arguments{
-\item{a_caex}{\verb{<num>} Number of cases exposed.}
+\item{a_case_exp}{\verb{<num>} Number of cases exposed.}
 
-\item{b_coex}{\verb{<num>} Number of controls exposed.}
+\item{b_ctrl_exp}{\verb{<num>} Number of controls exposed.}
 
-\item{c_caux}{\verb{<num>} Number of cases unexposed.}
+\item{c_case_uex}{\verb{<num>} Number of cases unexposed.}
 
-\item{d_coux}{\verb{<num>} Number of controls unexposed.}
+\item{d_ctrl_uex}{\verb{<num>} Number of controls unexposed.}
 }
 \value{
 Odds ratio.
